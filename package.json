@@ -1,0 +1,27 @@
+{
+  "name": "@thzero/library_id_shortuuid",
+  "type": "module",
+  "version": "0.17.0",
+  "version_major": 0,
+  "version_minor": 17,
+  "version_patch": 0,
+  "version_date": "03/19/2023",
+  "author": "thZero",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thzero/library_id_shortuuid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thzero/library_id_shortuuid/issues"
+  },
+  "homepage": "https://github.com/thzero/library_id_shortuuid#readme",
+  "scripts": {
+    "cli-update": "library-cli --updateversion --pi",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "short-uuid": "^4.2.2",
+    "uuid": "^9.0.0"
+  }
+}

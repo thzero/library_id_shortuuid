@@ -17,6 +17,12 @@ class IdUtility {
 		return uuidTranslator.fromUUID(uuidv4());
 	}
 
+	static setLengthLong(length) {
+	}
+
+	static setLengthShort(length) {
+	}
+
 	static translateToShortId(id) {
 		return uuidTranslator.fromUUID(id);
 	}
@@ -26,4 +32,4 @@ class IdUtility {
 	}
 }
 
-export default Utility;
+export default IdUtility;

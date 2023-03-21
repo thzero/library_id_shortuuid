@@ -4,6 +4,8 @@
 
 # library_id_shortuuid
 
+This library uses https://github.com/kelektiv/node-uuid package, v4, to generate long ids, but uses the https://github.com/oculus42/short-uuid package to generate short ids.
+
 ## Requirements
 
 ### NodeJs
@@ -13,5 +15,3 @@
 ## Installation
 
 [![NPM](https://nodei.co/npm/@thzero/library_id_shortuuid.png?compact=true)](https://npmjs.org/package/@thzero/library_id_shortuuid)
-
-### Requirements

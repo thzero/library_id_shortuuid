@@ -1,15 +1,19 @@
+import shortUUID from 'short-uuid';
+import { v4 as uuidv4 } from 'uuid';
+
+const uuidTranslator = shortUUID();
+
 class IdUtility {
 	static generateId() {
-		// return uuidv4();
-		return Utility.generateShortId();
+		return uuidTranslator.fromUUID(uuidv4());
 	}
 
 	static generateLongId() {
-		return uuidv4();
+		return uuidTranslator.fromUUID(uuidv4());
 	}
 
 	static generateShortId() {
-		return nano
+		return uuidTranslator.fromUUID(uuidv4());
 	}
 
 	static setAlphabet(alphabet) {

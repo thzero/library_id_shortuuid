@@ -5,11 +5,11 @@ const uuidTranslator = shortUUID();
 
 class IdUtility {
 	static generateId() {
-		return uuidTranslator.fromUUID(uuidv4());
+		return IdUtility.generateLongId();
 	}
 
 	static generateLongId() {
-		return uuidTranslator.fromUUID(uuidv4());
+		return uuidv4();
 	}
 
 	static generateShortId() {

@@ -16,6 +16,7 @@
     "url": "https://github.com/thzero/library_id_shortuuid/issues"
   },
   "homepage": "https://github.com/thzero/library_id_shortuuid#readme",
+  "main": "index.js",
   "scripts": {
     "cli-update": "library-cli --updateversion --pi",
     "test": "echo \"Error: no test specified\" && exit 1"

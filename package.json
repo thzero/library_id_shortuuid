@@ -1,11 +1,11 @@
 {
   "name": "@thzero/library_id_shortuuid",
   "type": "module",
-  "version": "0.18.9",
+  "version": "0.18.10",
   "version_major": 0,
   "version_minor": 18,
-  "version_patch": 9,
-  "version_date": "02/09/2025",
+  "version_patch": 10,
+  "version_date": "03/03/2025",
   "author": "thZero",
   "license": "MIT",
   "repository": {
@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "short-uuid": "^5.2.0",
-    "uuid": "^11.0.5"
+    "uuid": "^11.1.0"
   }
 }

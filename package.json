@@ -1,11 +1,11 @@
 {
   "name": "@thzero/library_id_shortuuid",
   "type": "module",
-  "version": "0.18.12",
+  "version": "0.18.13",
   "version_major": 0,
   "version_minor": 18,
-  "version_patch": 12,
-  "version_date": "10/15/2025",
+  "version_patch": 13,
+  "version_date": "12/10/2025",
   "author": "thZero",
   "license": "MIT",
   "repository": {
@@ -22,7 +22,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "short-uuid": "^5.2.0",
+    "short-uuid": "^6.0.3",
     "uuid": "^13.0.0"
   }
 }

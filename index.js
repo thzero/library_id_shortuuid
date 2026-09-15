@@ -1,7 +1,9 @@
-import shortUUID from 'short-uuid';
+import { createTranslator } from 'short-uuid';
 import { v4 as uuidv4 } from 'uuid';
 
-const uuidTranslator = shortUUID();
+// short-uuid v6 replaced the callable default export with named exports;
+// createTranslator() is what shortUUID() used to return.
+const uuidTranslator = createTranslator();
 
 class IdUtility {
 	static generateId() {
